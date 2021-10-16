@@ -1,0 +1,10 @@
+    /*text attributes*/
+body{background-color: black;}
+h1, h2, p{color:white;}
+h1{font-family: Arial, Helvetica, sans-serif;}
+    /*link attributes*/
+:link{color: lightskyblue;}
+:hover{color: white;}
+:active{color: navy;}
+:visited{color: purple;}
+
