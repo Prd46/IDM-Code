@@ -1,8 +1,20 @@
     /*text attributes*/
 body{background-color: black;}
 h1, h2, p {color:white;}
-h1, h2, p {font-family: Arial, Helvetica, sans-serif;}
+h1, h2, p, ul, ol {font-family: 'Courier New', Courier, monospace; 
+                    font-size: 1.5rem;}
+p {line-height: 2rem;
+    font-weight: lighter;
+    font-style: normal;
+}
     /*link attributes*/
-:link{color: lightskyblue;}
+:link{color: lightskyblue; font-family: 'Courier New', Courier, monospace;
+        line-height: 2rem;
+        font-size: 1.5rem;
+        font-weight: lighter;
+        font-style: normal;
+        text-decoration: none;
+    }
+:hover{color: white;}
 :visited{color: rgb(159, 0, 233);}
 
