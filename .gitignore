@@ -61,3 +61,8 @@ examples/week8/media
 graphics
 node_modules
 presentations/images
+*.png
+*.jpg
+*.jpg
+IDM Root/Media/logo.jpg
+*.pdf
