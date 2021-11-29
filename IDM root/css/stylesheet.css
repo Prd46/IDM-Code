@@ -58,7 +58,7 @@ img{
 
 h1, h2, ul, ol {font-family: 'Courier New', Courier, monospace; 
                     font-size: 1.5 rem;
-                    text-shadow: .15rem .15rem .15rem black;
+                    text-shadow: .25rem .25rem .25rem black;
                 }
 h1, h2, h3{
   color:white;
@@ -165,4 +165,14 @@ video.v3{
     margin: 2rem 0;
     position: relative;
 }
-
+.gallery{
+    box-shadow: 0 0 1rem .5rem black;
+    left: 2.25rem;
+    margin: 1rem auto;
+    position: relative;
+    width: 80%;
+}
+.casenav{
+    left: -.5rem;
+    position: relative;
+}
