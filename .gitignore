@@ -66,3 +66,4 @@ presentations/images
 *.jpg
 IDM Root/Media/logo.jpg
 *.pdf
+.DS_Store
