@@ -1,4 +1,4 @@
-   /*Page attributes*/
+   /*general*/
    body{
     box-sizing: border-box;
     margin: 3rem 0;
@@ -12,6 +12,8 @@ img{
     height: auto;
     width: 100%;
 }
+
+   /*fonts*/
 @font-face {
     font-family: 'staatliches';
     src: url('../fonts/staatliches-regular-webfont.woff2') format('woff2'),
@@ -58,15 +60,16 @@ img{
    /*text attributes*/
 
 
-h1, h2, ul, ol {font-family: 'Courier New', Courier, monospace; 
-                    font-size: 1.5 rem;
-                    text-shadow: .25rem .25rem .25rem black;
+h1, h2, ul, ol {
+    font-family: 'Courier New', Courier, monospace; 
+    font-size: 1.5 rem;
+    text-shadow: .25rem .25rem .25rem black;
                 }
 h1, h2, h3{
-  color:white;
- font-family: 'staatliches', Arial, Helvetica, sans-serif; 
- margin: 0 2rem 0  2rem;
- text-shadow: .25rem .25rem .15rem black;
+    color:white;
+    font-family: 'staatliches', Arial, Helvetica, sans-serif; 
+    margin: 0 2rem 0  2rem;
+    text-shadow: .25rem .25rem .15rem black;
                 }              
 p {
     color: white;
@@ -79,15 +82,15 @@ p {
     text-shadow: .25rem .25rem .15rem black;
 }
 
-    /*link attributes*/
+    /*buttons*/
 :link{color: lightskyblue; font-family: 'oswald', Arial, Helvetica, sans-serif;
-        line-height: 2rem;
-        font-size: 1.2rem;
-        font-weight: bold;
-        font-style: normal;
-        display: inline;
-        text-decoration: none;
-        text-shadow: .15rem .15rem .1rem black;
+    line-height: 2rem;
+    font-size: 1.2rem;
+    font-weight: bold;
+    font-style: normal;
+    display: inline;
+    text-decoration: none;
+    text-shadow: .15rem .15rem .1rem black;
     
     }
 .button{
@@ -159,13 +162,11 @@ p {
 ul.navi, ol{
     padding: 0;
 }
-:hover{color: white;}
-:visited{color: rgb(150,180,180);}
-.logo{
-    display: block;
-    justify-content: center;
-    margin: 0 auto;
-    width: 10rem;
+:hover{
+    color: white;
+}
+:visited{
+    color: rgb(150,180,180);
 }
 .fade{
     bottom: 0;
@@ -182,6 +183,8 @@ div.navi{
     position: relative;
     bottom: 1.5rem;
     width: 207px;
+
+   /*post attributes*/
 }
 .posthead, .caption{
     margin: .5rem .5rem;
