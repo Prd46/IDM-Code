@@ -68,7 +68,7 @@ h1, h2, ul, ol {
 h1, h2, h3{
     color:white;
     font-family: 'staatliches', Arial, Helvetica, sans-serif; 
-    margin: 0 2rem 0  2rem;
+    margin: 0 2rem 0 2rem;
     text-shadow: .25rem .25rem .15rem black;
                 }              
 p {
@@ -91,7 +91,6 @@ p {
     display: inline;
     text-decoration: none;
     text-shadow: .15rem .15rem .1rem black;
-    
     }
 .button{
     background-image: linear-gradient(125deg, rgba(200, 245, 255, .2), rgba(0,0,0,0));
@@ -168,15 +167,6 @@ ul.navi, ol{
 :visited{
     color: rgb(150,180,180);
 }
-.fade{
-    bottom: 0;
-    display: block;
-    height: 10%;
-    justify-content: center;
-    position: fixed;
-    width: 375px;
-    z-index: 1000;
-}
 div.navi{
     display: block;
     margin: 1rem auto;
@@ -212,11 +202,6 @@ video.v3{
     position: relative;
     width: 80%;
 }
-.casenav{
-    display: block;
-    margin: 2rem 84px;
-    width: 206px;
-}
 .resume{
     color: white;
     line-height: 2rem;
@@ -228,11 +213,57 @@ video.v3{
     text-shadow: .25rem .25rem .15rem black;
 }
 .footer{
-    margin: 0 ;
+    display: block;
+    margin: 0 auto;
+    width: 100%;
+}
+h2.footer{
+    margin: 0 2rem 0 2rem;
 }
 .hr{
     background-image: linear-gradient(90deg, rgba(0, 0, 0, 0), rgb(187, 228, 255), rgba(0, 0, 0, 0));   
     height: 2px;
     margin: 0 auto;
     width: 325px;
+}
+video{
+    display: block;
+    margin: 0 auto;
+    width: 375px;
+}
+iframe{
+    display: block;
+    margin: 0 auto;
+    width: 375px;
+}
+@media screen and (min-width: 768px){
+    .post{
+        display: inline-block;
+        margin: 1rem;
+    }
+    main{
+        display: inline;
+        margin: 0 auto;
+        width: 768px;
+    }
+    div.navi{
+        display: block;
+        margin: 0 auto;
+        width: 425px;
+    }
+.footer{
+    display: inline;
+    margin: 1rem auto;
+    width: 500px;
+    }
+    .footblock{
+        display: block;
+        margin: 1rem auto;
+        width: 700px;
+        }
+    div.reel{
+        display: block;
+        margin: 0 auto;
+        width: 615px;
+        }
 }
