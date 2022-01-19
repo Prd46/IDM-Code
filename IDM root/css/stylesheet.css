@@ -211,9 +211,11 @@ video.v3{
     margin: 0 2rem;
     text-shadow: .25rem .25rem .15rem black;
 }
-.footer{
+p.footer{
     display: block;
+    list-style-position: inside;
     margin: 0 auto;
+    text-align: center;
     width: 100%;
 }
 h2.footer{
@@ -324,11 +326,17 @@ video.v3{
     img.homeani{
         display: inline-block
     }
+    video{
+        display: block;
+        height: auto;
+        margin: 0 auto;
+        width: 50%;
+    }
     video.v3{
         display: block;
         height: auto;
         margin: 0 auto;
-        width: 25%;
+        width: 50%;
     }
 }
 
@@ -349,6 +357,11 @@ video.v3{
         font-size: 1.5rem;
         line-height: 2.5rem;
         margin: 2rem 15rem;
+    }
+    .resume {
+        font-size: 1.5rem;
+        line-height: 2rem;
+        margin: 1rem 15rem;
     }
     .post{
         display: inline-block;
@@ -373,7 +386,7 @@ video.v3{
     .footblock{
         display: block;
         margin: 1rem auto;
-        width: 750px;
+        width: 600px;
         }
     div.reel{
         display: block;
@@ -386,7 +399,7 @@ video.v3{
     .hr2{
         background-image: linear-gradient(90deg, rgb(187, 228, 255), rgba(0, 0, 0, 0));
         height: 2px;
-        margin: 0 2rem;
+        margin: 0 15rem;
         width: 600px;
             }
     img{
